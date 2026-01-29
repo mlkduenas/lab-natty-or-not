@@ -20,22 +20,26 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 ### Template
 
 ```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Produzir E-BOOK com IA ;)
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Esse projeto escrito em Python cria um e-book com indice e capítulos sobre o tema escolhido utilizando GPT via API.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+Python / Docker / API OpenAI
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Um script em python pede para o usuário definor um tema, um píblico e um nível de dificuldade. Essa versão inicial contém um prompt embutido
+que vai gerar um índice de capítulos e o devido conteúdo do livro e também uma capa para o mesmo.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+Foi utilizado o tema: “OWASP Top 10 explicado para quem não é de segurança”, público: Ensutiastas e nível: intermediário.
+Na pasta output foi gerado um arquivo output.md com toda a saída dos prompts e uma capa para o e-book.
+A próxima versão irá converter os dois arquivos em um PDF.
 
 ## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+O desafio é deixar o texto denso como o de uma pessoa. Por melhor que tenha se saído, não achei que não chega perto do conteúdo escrito
+por um especialista de verdade. Quanto a arte da capa acho que deixou muito a desejar, contém erros de escrita.
 ```
 
 ### Exemplos e Insigths
